@@ -6,10 +6,10 @@
 }
 
 body {
-    /* Fondo con tu foto y una capa oscura suave para que el texto resalte perfecto */
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('fotocon_mi_novia.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./fotocon_mi_novia.jpeg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
     display: flex;
     justify-content: center;
