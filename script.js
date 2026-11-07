@@ -1,7 +1,7 @@
 function moveNoButton() {
     const noBtn = document.getElementById('no-btn');
     
-    // Genera coordenadas aleatorias dentro de la pantalla
+    // Genera coordenadas aleatorias para que el botón "No" huya del mouse
     const maxX = window.innerWidth - noBtn.offsetWidth - 50;
     const maxY = window.innerHeight - noBtn.offsetHeight - 50;
     
