@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Una pregunta especial para ti ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fuente bonita de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="card" id="main-card">
+        <div class="heart-icon">❤️</div>
+        <h1>¿Quieres ser mi novia?(de forma virtual y presencial muy pronto❤️) </h1>
+        <p>❤️Has hecho que cada día sea increíble y especial.Se que no es la mejor manera pero pronto te lo dire en persona pero ya es un SPOILER AMOR.❤️ </p>
+        
+        <div class="btn-group">
+            <button id="yes-btn" onclick="sayYes()">¡Sí, acepto! 🥰</button>
+            <button id="no-btn" onmouseover="moveNoButton()" onclick="moveNoButton()">No 🙈</button>
+        </div>
+    </div>
+
+    <div class="card hidden" id="success-card">
+        <div class="heart-icon">💖</div>
+        <h1>¡Sabía que dirías que sí!</h1>
+        <p>Gracias por hacer este momento el más feliz. Te quiero muchísimo. ✨</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
